@@ -1,0 +1,31 @@
+
+/*box-sizing: border-box najlepiej definiowac w uniwersalnym selektorze dla calego dokumentu*/
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+
+
+body {
+	margin: 0;
+}
+
+
+.col-1-2 {
+	width: 50%;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 20px solid black;
+}
+
+.col-1-2:first-child {
+	background-color: beige;
+}
+
+.col-1-2:last-child {
+	background-color: darksalmon;
+}

@@ -1,26 +1,22 @@
-.square {
-	background-color: red;
-	height: 200px;
-	width: 200px;
-	transition: all 1s ease-in;
+body {
+	background-color: beige;
+	height: 3000px;
 }
 
-/*gdy chcemy kilka wlasciwosci w transition, to podajemy je po przecinku
-
-transition: background-color 2s ease-in, width 1s linear; */
-
-/*hover - tutaj ustalamy,co po najechaniu myszka na dany element ma sie zmienic*/
-
-.square:hover {
-	background-color: blue;
-	width: 400px;
+.background {
+	height: 600px;
+	margin: auto;
+	background-image: url(../img/Truskawka.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+/*	background-attachment: fixed;*/
+	background-size: cover;
+	
+	
+	
+	background: url(../img/Truskawka.jpg) center cover no-repeat;
 }
 
-img {
-	height: 100px;
-	transition: all .8s;
-}
 
-img:hover {
-	height: 200px;
-}
+
+/* opcja cover -> bedzie powodowac, ze obrazek bedzie chcial zajac cale tlo*/

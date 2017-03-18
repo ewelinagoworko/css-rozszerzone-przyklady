@@ -7,3 +7,17 @@ a {
 a[title] {
 	color: red;
 }
+
+a[title="Link 3"] {
+	color: green;
+}
+
+a[title~="Link"] {
+	color: yellow;
+}
+
+/*chce, aby tylko linki zakonczone na .pl byly koloru pomaranczowego*/
+
+a[href*=".pl"] {
+	color: orange;
+}

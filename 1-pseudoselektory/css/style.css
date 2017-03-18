@@ -1,3 +1,36 @@
 a {
 	display: block;
+	font-size: 3em;
+}
+
+a#link-1:link {
+	color: red;
+}
+
+a#link-2:visited {
+	color: green;
+}
+
+/*pseudoklasa hover - czesto uzywane, po najechaniu na dany element zmienia sie nam np. jego kolor, rozmiar czcionki, tlo*/
+
+a#link-3:hover {
+	color: orange;
+	font-size: 5em;
+	background-color: pink;
+	display: inline;
+	
+}
+
+/*display: inline  -  powoduje, ze nasze tlo jest tylko w miejscu tekst, a nie na calej szerokosci przegladarki*/
+
+a#link-4:active {
+	color: crimson;
+}
+
+a#link-5:focus {
+	color: yellow;
+}
+
+input:focus {
+	background-color: yellow;
 }

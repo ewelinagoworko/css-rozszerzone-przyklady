@@ -1,8 +1,10 @@
 .square {
 	background-color: red;
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
 	transition: all 1s ease-in;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /*gdy chcemy kilka wlasciwosci w transition, to podajemy je po przecinku
@@ -11,16 +13,18 @@ transition: background-color 2s ease-in, width 1s linear; */
 
 /*hover - tutaj ustalamy,co po najechaniu myszka na dany element ma sie zmienic*/
 
-.square:hover {
+#square1:hover {
+	background-color: red;
+	width: 300px;
+}
+
+#square2:hover {
 	background-color: blue;
-	width: 400px;
+	height: 300px;
 }
 
-img {
-	height: 100px;
-	transition: all .8s;
-}
-
-img:hover {
-	height: 200px;
+#square3:hover {
+	background-color: green;
+	width: 300px;
+	height: 300px;
 }

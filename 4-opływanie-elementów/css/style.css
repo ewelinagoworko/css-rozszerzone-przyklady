@@ -1,0 +1,33 @@
+img {
+	height: 50px;
+}
+
+/*oplywanie tekstu - float*/
+
+/*oplywanie tekstu - float: left - nasza truskawka jest oblewana tekstem z lewej strony*/
+
+#truskawka1 {
+	float: left;
+}
+
+/*oplywanie tekstu - float: right - nasza truskawka jest oblewana tekstem z prawej strony*/
+
+#truskawka2 {
+	float: right;
+}
+
+/*wyłączenie atrybutu float - gdyby np. domyslny byl float i chcemy dla danego elementu wylaczyc float*/
+
+#truskawka3 {
+	float: none;
+}
+
+#truskawka4 {
+	float: left;
+}
+
+/*wylaczenie floatowania dla ostatniego elementu tj. ostatniego paragrafu, to mozemy zastosowac clear - i wtedy wylaczymy float*/
+
+p:last-child {
+	clear: left;
+}

@@ -21,3 +21,15 @@ a[title~="Link"] {
 a[href*=".pl"] {
 	color: orange;
 }
+
+/*tylko elementy, ktorych atrybut zaczyna się od T będę miały kolor blueviolet*/
+
+a[title^="T"] {
+	color: blueviolet;
+}
+
+/*tylko elementy konczace sie na .com beda mialy kolor palegreen*/
+
+a[href$=".com"] {
+	color: palegreen;
+}

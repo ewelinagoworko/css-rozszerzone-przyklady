@@ -6,15 +6,19 @@ body {
 .background {
 	height: 600px;
 	margin: auto;
-	background-image: url(../img/Truskawka.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
+/*	background-image: url(../img/Truskawka.jpg);*/
+/*	background-repeat: no-repeat;*/
+/*	background-position: center;*/
 /*	background-attachment: fixed;*/
+/*	background-size: cover;*/
+	
+	
+/*zapis skrocony	*/
+	background: #fff url(../img/Truskawka.jpg) fixed center;
 	background-size: cover;
 	
+/*koniec zapisu skroconego*/
 	
-	
-	background: url(../img/Truskawka.jpg) center cover no-repeat;
 }
 
 

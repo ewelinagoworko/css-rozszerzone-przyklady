@@ -22,3 +22,18 @@ ul {
 	content: ' *';
 }
 
+/*jak chcemy zmienic np. gwiazdke na kwadracik to szukamy unicode'u na kwadrat i wpisujemy w pojedyncze cudzyslowy*/
+
+/*pseudoelement first letter*/
+
+#p2::first-letter {
+	color: red;
+	font-size: 1.5em;
+}
+
+/*pseudoselement first-line*/
+
+#p3::first-line {
+	color: green;
+	font-size: 1.5em;
+}

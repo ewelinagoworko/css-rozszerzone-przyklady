@@ -1,0 +1,9 @@
+a {
+	font-size: 3em;
+}
+
+/*kolor czerowny zadziala tylko dla linku, ktory posiada atrybut title*/ 
+
+a[title] {
+	color: red;
+}

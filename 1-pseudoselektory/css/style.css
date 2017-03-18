@@ -3,6 +3,8 @@ a {
 	font-size: 3em;
 }
 
+/*Pseudoselektory*/
+
 a#link-1:link {
 	color: red;
 }
@@ -34,3 +36,51 @@ a#link-5:focus {
 input:focus {
 	background-color: yellow;
 }
+
+#p1:target {
+	color: fuchsia;
+}
+
+p:lang(en) {
+	font-weight: 800;
+}
+
+p:lang(pl) {
+	font-weight: 200;
+}
+
+/*Elementy potomne*/
+
+.list-item:first-child {
+	background-color: aqua;
+}
+
+.list-item:last-child {
+	background-color: burlywood;
+}
+
+/*pseudoselektor only-child dziala tylko na jeden element, tylko jedno dziecko danego rodzica, gdy bedzie wiecej elementow potomnych, to wowczas ten styl zdefiniowany przy pomocy only-child nie zadziala*/
+
+div > p:only-child {
+	color: blue;
+}
+
+/*nth-child sprawdza sie szczegolnie przy robieniu tabelek, np. chcemy pokolorowac niektore wiersze tabeli*/ 
+
+.list-item:nth-child(odd) {
+	background-color: pink;
+}
+
+.list-item:nth-child(7) {
+	background-color: red;
+}
+
+.list-item:nth-child(3n + 2) {
+	background-color: orange;
+}
+
+
+
+
+
+
